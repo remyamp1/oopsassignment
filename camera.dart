@@ -39,4 +39,21 @@ void main()
   print("Id:${obj.getid()}");
   print("Name:${obj.getname()}");
   print("Color:${obj.getcolor()}");
+
+
+  Camera obj1=Camera();
+  obj1.setId(212);
+  obj1.setName("DSLR cameras");
+  obj1.setcolor("Black");
+  print("Id:${obj1.getid()}");
+  print("Name:${obj1.getname()}");
+  print("Color:${obj1.getcolor()}");
+
+  Camera obj2=Camera();
+  obj2.setId(211);
+  obj2.setName("Canon");
+  obj2.setcolor("Black");
+  print("Id:${obj2.getid()}");
+  print("Name:${obj2.getname()}");
+  print("Color:${obj2.getcolor()}");
 }
